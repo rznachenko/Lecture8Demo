@@ -6,7 +6,7 @@ namespace Lecture8Demo
 {
     public class Tests
     {
-        private static readonly IFlurlClient flurlClient = new FlurlClient();
+        private static readonly IFlurlClient flurlClient = new FlurlClient("https://jsonplaceholder.typicode.com");
 
         [Test]
         public void GetTest()
